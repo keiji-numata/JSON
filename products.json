@@ -1,0 +1,64 @@
+{
+    "products": [
+      {
+        "name": "DELL Laptop",
+        "description": "Newest model of the DELL Vostro Laptop",
+        "price": "1500",
+        "categories": ["technology", "computer"]
+      },
+      {
+        "name": "EXPO Marker",
+        "description": "Dry Erase marker",
+        "price": "2",
+        "categories": ["school"]
+      },
+      {
+        "name": "NIKE Airforce 1",
+        "description": "Size: 9.5, condition: slightly worn",
+        "price": "60",
+        "categories": ["shoes"]
+      },
+      {
+        "name": "Notebook",
+        "description": "Unused new notebook",
+        "price": "2",
+        "categories": ["school"]
+      },
+      {
+        "name": "Ford F150",
+        "description": "Mileage: 10,000, Color: silver",
+        "price": "12",
+        "categories": ["car", "truck"]
+      },
+      {
+        "name": "Shohei Ohtani Jersey",
+        "description": "New, Size L",
+        "price": "120",
+        "categories": ["sports", "baseball", "jersey"]
+      },
+      {
+        "name": "Table",
+        "description": "Missing a leg",
+        "price": "10",
+        "categories": ["furniture", "table"]
+      },
+      {
+        "name": "Taco Bell Burrito",
+        "description": "Half eaten",
+        "price": "1.50",
+        "categories": ["food", "mexican", "fast food"]
+      },
+      {
+        "name": "New York Yankees",
+        "description": "Baseball Team",
+        "price": "7.1 billion",
+        "categories": ["sports", "baseball", "team"]
+      },
+      {
+        "name": "Declaration of Independence",
+        "description": "Pretty cool",
+        "price": "7.50",
+        "categories": ["history", "paper", "school"]
+      }
+    ]
+  }

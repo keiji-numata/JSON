@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #c7cfd7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .product {
+    margin-bottom: 20px;
+    background-color: #0d71c3;
+    border: 1px solid #0d71c3;
+    padding: 10px;
+    width: 300px;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<div id="productContainer"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $.get("products.json", function(data) {
+    var productsHTML = "";
+    data.products.forEach(function(product, index) {
+      productsHTML += `
+        <div class="product">
+          <h2>${product.name}</h2>
+          <p>${product.description}</p>
+          <p>Price: $${product.price}</p>
+          <p>Categories: ${product.categories.join(", ")}</p>
+        </div>
+      `;
+    });
+    $("#productContainer").html(productsHTML);
+  });
+});
+</script>
+
+</body>
+</html>
